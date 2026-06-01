@@ -8,7 +8,7 @@ public class ConnectionFactory {
 
     private static Connection connection = null;
 
-    private static final String URL = "jdbc:mysql://localhost:3306/biblioteca_escola?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3386/biblioteca_escola?useSSL=false&serverTimezone=UTC";
 
     private static final String USER = System.getenv("DB_USER") != null ? System.getenv("DB_USER") : "root";
     private static final String PASSWORD = System.getenv("DB_PASSWORD");
