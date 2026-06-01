@@ -1,4 +1,7 @@
 package com.project.biblioteca_escola_api.dto.livroDTO;
 
-public class LivroRequestDTO {
+public record LivroRequestDTO(
+        String titulo,
+        String autor
+) {
 }
