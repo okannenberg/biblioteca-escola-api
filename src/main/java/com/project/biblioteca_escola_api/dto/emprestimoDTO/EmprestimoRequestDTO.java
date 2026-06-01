@@ -1,4 +1,7 @@
 package com.project.biblioteca_escola_api.dto.emprestimoDTO;
 
-public class EmprestimoRequestDTO {
+public record EmprestimoRequestDTO (
+        String titulo,
+        String autor
+){
 }
