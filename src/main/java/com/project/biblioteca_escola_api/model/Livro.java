@@ -1,12 +1,12 @@
 package com.project.biblioteca_escola_api.model;
 
 public class Livro {
-    private long id;
+    private Long id;
     private String titulo;
     private String autor;
     private boolean disponivel;
 
-    public Livro(long id, String titulo, String autor, boolean disponivel) {
+    public Livro(Long id, String titulo, String autor, boolean disponivel) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
@@ -21,11 +21,11 @@ public class Livro {
 
     public Livro() {}
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
